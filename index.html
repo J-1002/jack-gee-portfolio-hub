@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jack Gee — AI builds</title>
+  <meta name="description" content="Portfolio of real AI tools Jack Gee builds, starting with Lecture — a study workspace for college students." />
+  <style>
+    :root {
+      --bg: #f6f5f0;
+      --paper: #fffefa;
+      --ink: #253b35;
+      --ink2: #55635c;
+      --accent: #d5633b;
+      --wash: #f6e8dc;
+      --line: #e3e5da;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Avenir Next", Avenir, "Segoe UI", system-ui, sans-serif;
+      font-size: 1.05rem;
+      line-height: 1.55;
+    }
+    a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: var(--ink); }
+    .wrap {
+      max-width: 44rem;
+      margin: 0 auto;
+      padding: 3.5rem 1.4rem 5rem;
+    }
+    header.hero {
+      padding-bottom: 2.4rem;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 2.4rem;
+    }
+    .eyebrow {
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink2);
+      margin: 0 0 0.85rem;
+    }
+    h1 {
+      font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+      font-weight: 500;
+      font-size: clamp(2.1rem, 5vw, 2.85rem);
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+      letter-spacing: -0.02em;
+    }
+    .lede {
+      color: var(--ink2);
+      font-size: 1.12rem;
+      max-width: 36rem;
+      margin: 0;
+    }
+    section { margin-bottom: 2.6rem; }
+    h2 {
+      font-family: Georgia, "Iowan Old Style", Palatino, serif;
+      font-weight: 500;
+      font-size: 1.55rem;
+      margin: 0 0 0.9rem;
+    }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.45rem 1.4rem 1.55rem;
+      box-shadow: 0 1px 0 rgba(37, 59, 53, 0.03);
+    }
+    .status {
+      display: inline-block;
+      background: var(--wash);
+      color: var(--ink);
+      font-size: 0.82rem;
+      padding: 0.28rem 0.65rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+    .case h3 {
+      font-family: Georgia, Palatino, serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 1.15rem 0 0.35rem;
+      color: var(--ink);
+    }
+    .case h3:first-of-type { margin-top: 0.35rem; }
+    .case p { margin: 0 0 0.15rem; color: var(--ink2); }
+    .case ul {
+      margin: 0.4rem 0 0;
+      padding-left: 1.15rem;
+      color: var(--ink2);
+    }
+    .case li { margin-bottom: 0.35rem; }
+    .demos .slot {
+      border: 1px dashed var(--line);
+      border-radius: 10px;
+      padding: 1.2rem 1.1rem;
+      color: var(--ink2);
+      background: transparent;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.4rem;
+      border-top: 1px solid var(--line);
+      color: var(--ink2);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <p class="eyebrow">AI product portfolio</p>
+      <h1>Jack Gee</h1>
+      <p class="lede">I build real AI tools students can use — starting with Lecture, a study workspace that connects lecture capture to notes, questions, and exam review.</p>
+    </header>
+
+    <section class="case" aria-labelledby="lecture-heading">
+      <h2 id="lecture-heading">Lecture</h2>
+      <article class="card">
+        <span class="status">Local Mac build · preparing for early testing</span>
+
+        <h3>Problem</h3>
+        <p>Taking notes can compete with listening. Useful material ends up scattered. An exam often covers topics across several lectures.</p>
+
+        <h3>What I built</h3>
+        <p>A personal study workspace that keeps course context, lecture capture, notes, questions, and exam review in one place. In the current Mac build:</p>
+        <ul>
+          <li>Course folders with syllabi, vocabulary, and schedules</li>
+          <li>Structured live notes while listening</li>
+          <li>Ask questions about a saved lecture</li>
+          <li>Continue a lecture across sessions with dated parts</li>
+          <li>Study guides, quizzes, and flashcards from selected material</li>
+          <li>Topic-focused guides across up to 30 lectures, with source references and gaps to check</li>
+          <li>Short two-presenter review podcasts (synthetic Mac voices) plus Markdown export</li>
+        </ul>
+
+        <h3>AI angle</h3>
+        <p>AI helps organize and explore course material — notes, limited transcript corrections, Q&amp;A, and study artifacts — always against the student’s own lectures. Answers still need a critical eye; the value is staying with the source, not replacing judgment.</p>
+      </article>
+    </section>
+
+    <section class="demos" aria-labelledby="demos-heading">
+      <h2 id="demos-heading">More demos</h2>
+      <div class="slot">Live demos will land here next — starting with a lecture-slice (transcript → notes + quiz).</div>
+    </section>
+
+    <footer>
+      Built as a portfolio hub for employers. No public signup for Lecture yet — this page only claims what ships in the current local build.
+    </footer>
+  </main>
+</body>
+</html>

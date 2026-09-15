@@ -2,23 +2,17 @@
 
 Date: 2026-09-15
 
-## Built
-- Static `index.html` at `/workspace/portfolio-hub/`
-- Brand tokens from Lecture BRAND.md
-- Case study claims only from PRODUCT_FACTS.md
-- Status: “Local Mac build · preparing for early testing”
-- Empty “More demos” slot present
-- No signup CTA, no user counts, no public-availability claims
+## Live
+- URL: https://j-1002.github.io/jack-gee-portfolio-hub/
+- Repo: https://github.com/J-1002/jack-gee-portfolio-hub
+- Host: GitHub Pages (free), `main` `/`
 
-## Checks run
-- Local serve: `python3 -m http.server 4173 --directory /workspace/portfolio-hub`
-- HTTP 200 on `/`
-- Content grep: Jack Gee, status line, More demos present
-- Banned-phrase scan: clean
+## Checks
+- HTTP 200 on live URL
+- Page contains: Jack Gee, “Local Mac build · preparing for early testing”, “More demos”
+- Claims limited to PRODUCT_FACTS; no signup CTA / user counts / public-availability claims
 
-## Blocked
-- Cursor Origin `new_repo` needs Jack to create an Origin namespace
-- Public HTTPS publish needs Auto-review approval in 1:1 chat (not available in Portfolio Lab group)
-
-## Next
-Jack: open Portfolio Builder 1:1 and approve public deploy, or create Origin namespace for durable repo hosting.
+## Brief match
+- Hero + Lecture case study (problem → build → AI angle)
+- Brand tokens `#f6f5f0` / `#fffefa` / `#253b35` / `#d5633b`
+- Empty more-demos slot present
